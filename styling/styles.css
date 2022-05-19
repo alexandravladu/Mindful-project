@@ -343,3 +343,82 @@ div.emotion{
          font-size: 25px;
      }
  }
+
+
+
+
+
+
+ /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width:  55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label  {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+      font-family: 'Libre Bodoni', serif;
+ 
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #8CC1DE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 5px;
+}
+
+
+/* Style the container */
+.contact {
+  border-radius: 5px;
+   padding: 20px;
+    width: 100%;
+  margin: 4%;
+  background-image: url(../images/water.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+} 
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
