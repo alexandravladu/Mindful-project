@@ -365,8 +365,9 @@ label  {
   padding: 12px 12px 12px 0;
   display: inline-block;
   color: white;
-  font-size: 20px;
-      font-family: 'Libre Bodoni', serif;
+  font-size: 22px;
+    font-family: 'Libre Bodoni', serif;
+    text-decoration: none;
  
 }
 
