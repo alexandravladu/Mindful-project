@@ -215,14 +215,6 @@ div.emotion{
 }
 
 
-/*
-@keyframes pulsate {
-    0%{
-        box-shadow:0 0 25px #855970;
-        animation: pulsate 1s ease-in-out;
-    }
-}
-*/
 
 
 #features{
@@ -323,7 +315,7 @@ div.emotion{
            margin:10%;
      }
        .fear{
-         max-width: 70%;
+         max-width: 80%;
            margin:10%;
      }
        .sadness{
